@@ -1,0 +1,30 @@
+.list{
+    width: 100px;
+    height: 100px;
+}
+.list .menu-list{
+    position: absolute;
+}
+.list .menu-list>li{
+    height: 189px;
+    list-style: none;
+}
+.list .menu-list>li a{
+    color: #00a1d6;
+}
+.list .menu-list>li:hover a{
+    color: #ff69b4;
+}
+.list .menu-list .word{
+    width: 300px;
+    height: 70px;
+    left: 10px;
+    top: 30px;
+    font-size: 60px;
+    position: relative;
+}
+.list .menu-list .img{
+    left: 400px;
+    top: -70px;
+    position: relative;
+}

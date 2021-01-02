@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.qst.dao.UserDao</OriginalElement>
+  <nodes>
+    <node x="385.0" y="454.0">com.qst.servlet.RegistServlet</node>
+    <node x="182.74107142857142" y="209.0">com.qst.dao.UserDao</node>
+    <node x="353.69047619047615" y="0.0">com.qst.bean.Person</node>
+    <node x="0.0" y="454.0">com.qst.servlet.LoginServlet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.qst.servlet.LoginServlet" target="com.qst.dao.UserDao">
+      <point x="0.0" y="-41.5" />
+      <point x="182.5" y="434.0" />
+      <point x="214.74107142857142" y="434.0" />
+      <point x="-96.0" y="97.5" />
+    </edge>
+    <edge source="com.qst.dao.UserDao" target="com.qst.bean.Person">
+      <point x="-64.0" y="-97.5" />
+      <point x="246.74107142857142" y="179.0" />
+      <point x="395.69047619047615" y="179.0" />
+      <point x="-28.0" y="74.5" />
+    </edge>
+    <edge source="com.qst.servlet.RegistServlet" target="com.qst.bean.Person">
+      <point x="136.875" y="-41.5" />
+      <point x="704.375" y="434.0" />
+      <point x="635.2380952380952" y="434.0" />
+      <point x="635.2380952380952" y="179.0" />
+      <point x="479.69047619047615" y="179.0" />
+      <point x="56.00000000000001" y="74.5" />
+    </edge>
+    <edge source="com.qst.servlet.RegistServlet" target="com.qst.dao.UserDao">
+      <point x="-45.625" y="-41.5" />
+      <point x="521.875" y="424.0" />
+      <point x="406.74107142857144" y="424.0" />
+      <point x="96.0" y="97.5" />
+    </edge>
+    <edge source="com.qst.servlet.LoginServlet" target="com.qst.bean.Person">
+      <point x="-121.66666666666669" y="-41.5" />
+      <point x="60.833333333333314" y="434.0" />
+      <point x="145.66071428571428" y="434.0" />
+      <point x="145.66071428571428" y="169.0" />
+      <point x="367.69047619047615" y="169.0" />
+      <point x="-56.0" y="74.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="244.5" y="218.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
